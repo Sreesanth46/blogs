@@ -1,17 +1,15 @@
-<div class="flex flex-col gap-4 font-serif">
+  <div class="flex flex-col gap-4 font-serif">
     <h1 class="text-2xl">
       <strong>
         Efficient User session Management in Microservice Architecture
       </strong>
     </h1>
-
     <p>
       When building applications with microservices, managing user sessions
       across services can be tricky. A robust session management approach is key
       to ensuring a smooth user experience. Here is an outline of how to share
       session state across independent services:
     </p>
-
     <div>
       <strong> Requirements: </strong>
       <ul class="list-disc pl-8">
@@ -19,7 +17,6 @@
         <li>Ability to invalidate sessions globally</li>
       </ul>
     </div>
-
     <div>
       <p><strong>Proposed Solution:</strong></p>
       <ol class="list-decimal pl-8">
@@ -28,7 +25,6 @@
           <i>public key</i> to verify tokens signed by the auth service's
           <i>private key</i>.
         </li>
-
         <li class="before:ml-1">
           <em>Shared Redis Cache </em> - stores
           <i>active access tokens</i> 𝘮𝘢𝘱𝘱𝘦𝘥 <i>to user IDs.</i> All services
@@ -36,13 +32,11 @@
         </li>
       </ol>
     </div>
-
     <div>
       <img
         src="/micro-service-session.jpg"
         alt="micro service session architecture" />
     </div>
-
     <div>
       <p>
         <em><strong>General Workflow:</strong></em>
@@ -58,12 +52,10 @@
         </li>
       </ul>
     </div>
-
     <div>
       <p>
         <em><strong>When a user logs for the first time:</strong></em>
       </p>
-
       <ul class="list-disc pl-8">
         <li>Auth service generates signed access and refresh JWT tokens</li>
         <li>
@@ -76,12 +68,10 @@
         </li>
       </ul>
     </div>
-
     <div>
       <p>
         <em><strong>When user accesses other services:</strong></em>
       </p>
-
       <ul class="list-disc pl-8">
         <li>
           Services first fetch the auth service's public key if not cached.
@@ -92,12 +82,10 @@
         </li>
       </ul>
     </div>
-
     <div>
       <p>
         <em><strong>Logging out:</strong></em>
       </p>
-
       <ul class="list-disc pl-8">
         <li>
           Auth service invalidates JWT by removing it from Redis. All services
@@ -105,12 +93,10 @@
         </li>
       </ul>
     </div>
-
     <div>
       <p>
         <em><strong>Refreshing expired token:</strong></em>
       </p>
-
       <ul class="list-disc pl-8">
         <li>
           When a user requests an access token with a refresh token, generate a
@@ -123,12 +109,10 @@
         </li>
       </ul>
     </div>
-
     <p class="pt-4 text-gray-900 dark:text-white">
       This shared Redis token store allows services to coordinate sign-on state.
       Storing tokens for validity checks prevents unauthorized use if
       intercepted.
     </p>
-
     <p class="text-center">fin.</p>
   </div>
