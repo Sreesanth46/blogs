@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "show.md",
+                "file": "show-component-for-react.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "show.md",
+                "file": "show-component-for-react.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "show.md",
+                "file": "show-component-for-react.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "show.md"
+                "file": "show-component-for-react.md"
               }
             }
           }
@@ -149,6 +149,6 @@
   "active": "a125b3aefc3c36e1",
   "lastOpenFiles": [
     "user-session-management-in-microservice.md",
-    "show.md"
+    "show-component-for-react.md"
   ]
 }
