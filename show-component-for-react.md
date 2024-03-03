@@ -9,7 +9,7 @@ Now, say goodbye to the verbosity of condition ? "When true" : "Else case". Embr
 No more parsing complex ternary statements or logical operators to figure out what will actually render!
 
 
-```js
+```ts
 import React, { Children, ReactElement } from 'react';
 
 interface WhenProps {
@@ -43,7 +43,7 @@ Show.Else = ({ render, children }: ElseProps) => render || children;
 ```
 
 
-```js
+```ts
 export default function App() {
   const condition = true; // Add your condition 
   return (
