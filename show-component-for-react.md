@@ -8,6 +8,7 @@ The Show component accepts React elements wrapped in a When and Else component f
 Now, say goodbye to the verbosity of condition ? "When true" : "Else case". Embrace the elegance and simplicity of the Show component for a more streamlined and intuitive approach to conditional rendering in your React projects.  
 No more parsing complex ternary statements or logical operators to figure out what will actually render!
 
+
 ```js
 import React, { Children, ReactElement } from 'react';
 
