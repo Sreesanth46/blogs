@@ -9,6 +9,49 @@ Now, say goodbye to the verbosity of condition ? "When true" : "Else case". Embr
 No more parsing complex ternary statements or logical operators to figure out what will actually render!
 
 ```js
+import React, { Children, ReactElement } from 'react';
+
+interface WhenProps {
+  isTrue: boolean;
+  children: React.ReactNode;
+}
+
+interface ElseProps {
+  render?: React.ReactNode;
+  children: React.ReactNode;
+}
+
+export const Show = (props: React.PropsWithChildren) => {
+  let when: React.ReactNode | null = null;
+  let otherwise: React.ReactNode | null = null;
+
+  Children.forEach(props.children, child => {
+    if ((child as ReactElement<WhenProps>).props.isTrue === undefined) {
+      otherwise = child;
+    } else if (!when && (child as ReactElement<WhenProps>).props.isTrue) {
+      when = child;
+    }
+  });
+
+  return when || otherwise;
+};
+
+Show.When = ({ isTrue, children }: WhenProps) => isTrue && children;
+
+Show.Else = ({ render, children }: ElseProps) => render || children;
+```
 
 
+```js
+export default function App() {
+  const condition = true; // Add your condition 
+  return (
+    <div className="p-6">
+      <Show>
+        <Show.When isTrue={condition}>Renders when condition is true</Show.When>
+        <Show.Else>Render when condition is not true</Show.Else>
+      </Show>
+    </div>
+  );
+}
 ```
