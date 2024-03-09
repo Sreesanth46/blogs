@@ -3,7 +3,7 @@
 
 When building applications with microservices, managing user sessions across services can be tricky. A robust session management approach is key to ensuring a smooth user experience. Here is an outline of how to share session state across independent services:
 
-<strong> Requirements: </strong
+<strong>Requirements:</strong>
 <ul class="list-disc pl-8">
 	<li>Single sign-on across services</li>
     <li>Ability to invalidate sessions globally</li>
