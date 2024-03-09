@@ -1,14 +1,12 @@
-   <div class="flex flex-col gap-4 font-serif">
-    <h1 class="text-2xl">
-      <strong>
-        Efficient User session Management in Microservice Architecture
-      </strong>
-    </h1>
-    <p>
+# Efficient User session Management in Microservice Architecture   
+
       When building applications with microservices, managing user sessions
       across services can be tricky. A robust session management approach is key
       to ensuring a smooth user experience. Here is an outline of how to share
       session state across independent services:
+   <div class="flex flex-col gap-4 font-serif">
+    <p>
+
     </p>
     <div>
       <strong> Requirements: </strong>
