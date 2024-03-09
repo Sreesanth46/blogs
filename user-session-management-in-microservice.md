@@ -1,13 +1,18 @@
 # Efficient User session Management in Microservice Architecture   
 
+
       When building applications with microservices, managing user sessions
       across services can be tricky. A robust session management approach is key
       to ensuring a smooth user experience. Here is an outline of how to share
       session state across independent services:
-   <div class="flex flex-col gap-4 font-serif">
-    <p>
 
-    </p>
+      <strong> Requirements: </strong
+      <ul class="list-disc pl-8">
+        <li>Single sign-on across services</li>
+        <li>Ability to invalidate sessions globally</li>
+      </ul>
+
+   <div class="flex flex-col gap-4 font-serif">
     <div>
       <strong> Requirements: </strong>
       <ul class="list-disc pl-8">
