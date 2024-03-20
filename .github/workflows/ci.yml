@@ -25,7 +25,7 @@ jobs:
         if: steps.new-files.outcome == 'success'
         uses: peter-evans/repository-dispatch@v2
         with:
-          token: ${{secrets.GITHUB_TOKEN}}
+          token: ${{secrets.ACCESS_TOKEN}}
           repository: Sreesanth46/coverage-notfication
           event-type: dispatch-event
           client-payload: '{"Updated": "true"}'
