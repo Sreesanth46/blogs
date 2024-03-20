@@ -7,5 +7,10 @@ The h() Function is designed to be very flexible, this is somewhere I found this
 ```js
 import { h } from 'vue'
 
-
+const Typography = (props, ctx) => h(
+props.component,
+{
+class: "text-gray-800"
+}
+)
 ```
