@@ -28,4 +28,3 @@ jobs:
           token: ${{secrets.ACCESS_TOKEN}}
           repository: Sreesanth46/coverage-notfication
           event-type: dispatch-event
-          client-payload: '{"Updated": "true"}'
