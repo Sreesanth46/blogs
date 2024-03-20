@@ -26,5 +26,5 @@ jobs:
         uses: peter-evans/repository-dispatch@v2
         with:
           token: ${{secrets.ACCESS_TOKEN}}
-          repository: Sreesanth46/coverage-notfication
+          repository: Sreesanth46/sreesanth.me
           event-type: dispatch-event
