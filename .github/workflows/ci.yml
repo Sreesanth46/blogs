@@ -1,5 +1,8 @@
 name: ci on new files
 
+permissions:
+  contents: write
+
 on:
   push:
     paths:
