@@ -1,0 +1,27 @@
+name: ci on new files
+
+on:
+  push:
+    paths:
+      - '**/*'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Check for new files
+        run: |
+          git fetch origin ${{ github.event.before }}
+          git diff --name-only --diff-filter=A ${{ github.event.before }} | grep -q '.'
+        id: new-files
+
+      - name: notify
+        if: steps.new-files.outcome == 'success'
+        uses: peter-evans/repository-dispatch@v2
+        with:
+          token: ${{ secrets.REPO_ACCESS_TOKEN }}
+          repository: Sreesanth46/blogs
+          event-type: dispatch-event
