@@ -121,4 +121,4 @@ export default ChatWindow;
 
 The Intersection Observer API provides a powerful and efficient way to implement infinite scroll in web applications. By observing the intersection between elements and the viewport, you can seamlessly load data as the user scrolls, enhancing the user experience and improving performance. Experiment with the code examples provided, and explore further resources to deepen your understanding of this API.
 
-[### Example](https://github.com/Sreesanth46/infinite-scroll)
+[Example](https://github.com/Sreesanth46/infinite-scroll)
