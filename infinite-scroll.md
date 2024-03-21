@@ -117,7 +117,7 @@ function ChatWindow() {
 export default ChatWindow;
 ```
 
-The chat container has the style `display: column-reverse`, which implements a smooth infinite scroll experience for a chat window. This ensures that new messages are displayed at the bottom of the container, while older messages are appended at the top as they are loaded. By reversing the column order, the newest messages appear at the bottom, mirroring the expected behavior of a chat application.
+The chat container has the style `flex-direction: row-reverse;`, which implements a smooth infinite scroll experience for a chat window. This ensures that new messages are displayed at the bottom of the container, while older messages are appended at the top as they are loaded. By reversing the column order, the newest messages appear at the bottom, mirroring the expected behavior of a chat application.
 
 
 #### Conclusion
