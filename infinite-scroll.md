@@ -117,6 +117,9 @@ function ChatWindow() {
 export default ChatWindow;
 ```
 
+The chat container has the style `display: column-reverse`, which implements a smooth infinite scroll experience for a chat window. This ensures that new messages are displayed at the bottom of the container, while older messages are appended at the top as they are loaded. By reversing the column order, the newest messages appear at the bottom, mirroring the expected behavior of a chat application.
+
+
 #### Conclusion
 
 The Intersection Observer API provides a powerful and efficient way to implement infinite scroll in web applications. By observing the intersection between elements and the viewport, you can seamlessly load data as the user scrolls, enhancing the user experience and improving performance. Experiment with the code examples provided, and explore further resources to deepen your understanding of this API.
