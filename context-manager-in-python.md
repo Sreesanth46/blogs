@@ -42,7 +42,7 @@ class ResponseContext:
 
 @api_view(['GET'])
 def get_user(request):
-    with ResponseContext() 
+    with ResponseContext() as r: 
         r.message = "Success"
         r.data = User # Get user
         r.status = HTTP_200_OK 
