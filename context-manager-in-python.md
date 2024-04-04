@@ -58,3 +58,34 @@ and robust responses across our APIs.
 If you need to include error codes and messages as part of the response on errors, you could use a 
 custom exception that raises an Exception with a status code and error code. You can then manage 
 extracting the error code, message, and status code inside the `__exit__` block of the context manager.
+
+```python
+class CustomBaseException(Exception):
+
+    def __init__(self, status_code, error_code):
+        self.statusCode = str(status_code)
+        self.errorCode = str(error_code)
+        if error_code:
+            self.message = getattr(message, error_code)
+            
+```
+
+This `CustomBaseException` class raises a exception with `errorCode`, `statusCode` and `messsage`, now you
+can update the `__exit__` block as follows
+
+```python
+    def __exit__(self, exc_type, exc_value, traceback):
+        if exc_type is not None:
+            if issubclass(exc_type, CustomBaseException):
+                self.status = exc_value.statusCode
+                self.data = None
+                self.message = exc_value.message
+                self.errorCode = exc_value.errorCode
+            else:   
+                self.status = 400
+                self.data = None
+                self.message = str(exc_value)
+            return True
+```
+
+Now you just have to raise the exceptions in your views, response is managed by the context manager.
