@@ -89,3 +89,38 @@ can update the `__exit__` block as follows
 ```
 
 Now you just have to raise the exceptions in your views, response is managed by the context manager.
+
+## Another use case
+
+When working with databases in Django, it's important to properly manage the lifecycle of database 
+connections and cursors. This can help prevent issues like resource leaks, performance problems, 
+and unnecessary overhead.
+
+By using the context manager, you can ensure that the cursor is properly closed and the database 
+connection is returned to the connection pool, even in the event of an exception.
+If you're working with a SQLite database, you can create a custom context manager that takes 
+the database file as a parameter and manages the connection lifecycle.
+
+Here's an example of a custom `SQLiteDBConnection` context manager:
+
+```python
+class SQLiteDBConnection:
+    def __init__(self, db_file):
+        self.db_file = db_file
+
+    def __enter__(self):
+        self.connection = sqlite3.connect(self.db_file)
+        return self.connection.cursor()
+
+    def __exit__(self, exc_type, exc_value, traceback):
+        self.connection.close()
+
+# Example usage
+
+db_file = 'path/to/your/database.db'
+with SQLiteDBConnection(db_file) as cursor:
+    cursor.execute("SELECT * FROM my_table")
+    results = cursor.fetchall()
+
+# The connection is automatically closed at the end of the with block
+```
