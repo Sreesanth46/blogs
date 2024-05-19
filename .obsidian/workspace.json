@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e6fed2dd7e82f074",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.11"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -146,7 +157,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7d37364f602a0421",
+  "active": "e6fed2dd7e82f074",
   "lastOpenFiles": [
     "infinite-scroll.md",
     "vue-render-function.md",
