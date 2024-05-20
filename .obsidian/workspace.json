@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "e6fed2dd7e82f074",
+            "id": "613f9212f1355ae5",
             "type": "leaf",
             "state": {
               "type": "release-notes",
               "state": {
-                "currentVersion": "1.5.11"
+                "currentVersion": "1.5.12"
               }
             }
           }
@@ -157,9 +157,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e6fed2dd7e82f074",
+  "active": "613f9212f1355ae5",
   "lastOpenFiles": [
+    "vue-teleport.md",
     "infinite-scroll.md",
+    "context-manager-in-python.md",
     "vue-render-function.md",
     "user-session-management-in-microservice.md",
     "show-component-for-react.md"
