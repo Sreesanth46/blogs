@@ -13,24 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "vue-render-function.md",
+                "file": "user-session-management-in-microservice.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "613f9212f1355ae5",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.12"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -96,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "vue-render-function.md",
+                "file": "user-session-management-in-microservice.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "vue-render-function.md",
+                "file": "user-session-management-in-microservice.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "vue-render-function.md"
+                "file": "user-session-management-in-microservice.md"
               }
             }
           }
@@ -157,13 +146,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "613f9212f1355ae5",
+  "active": "7d37364f602a0421",
   "lastOpenFiles": [
-    "vue-teleport.md",
+    "show-component-for-react.md",
     "infinite-scroll.md",
     "context-manager-in-python.md",
     "vue-render-function.md",
-    "user-session-management-in-microservice.md",
-    "show-component-for-react.md"
+    "vue-teleport.md",
+    "user-session-management-in-microservice.md"
   ]
 }

@@ -1,14 +1,8 @@
 # Context manager in Python
 
-A context manager is a Python object that provides a clean way to manage resources, ensuring proper acquisition 
-and release. By encapsulating the response formatting logic within a context manager, we can ensure consistency 
-and maintainability throughout the project. It handles exceptions and sets appropriate status codes, enhancing 
-consistency and robustness.
+A context manager is a Python object that provides a clean way to manage resources, ensuring proper acquisition and release. By encapsulating the response formatting logic within a context manager, we can ensure consistency and maintainability throughout the project. It handles exceptions and sets appropriate status codes, enhancing consistency and robustness.
 
-In Django projects, especially those involving larger teams, structuring response bodies for APIs can be a 
-significant challenge. Inconsistent formats or lack of standardization can lead to confusion, potential issues, 
-and decreased maintainability across the codebase. To address this problem, I leveraged the power of Python's 
-context managers to ensure efficient and consistent response structuring.
+In Django projects, especially those involving larger teams, structuring response bodies for APIs can be a significant challenge. Inconsistent formats or lack of standardization can lead to confusion, potential issues, and decreased maintainability across the codebase. To address this problem, I leveraged the power of Python's context managers to ensure efficient and consistent response structuring.
 
 Here's how I implemented a context manager to structure API response bodies in our Django project:
 
@@ -49,15 +43,11 @@ def get_user(request):
     return r.get_response()
 ```
 
-This `ResponseContext` class acts as a context manager, allowing us to wrap our response formatting code 
-within a `with` statement. It handles exceptions and sets appropriate status codes, ensuring consistent 
-and robust responses across our APIs.
+This `ResponseContext` class acts as a context manager, allowing us to wrap our response formatting code within a `with` statement. It handles exceptions and sets appropriate status codes, ensuring consistent and robust responses across our APIs.
 
 ### Bonus Tip
 
-If you need to include error codes and messages as part of the response on errors, you could use a 
-custom exception that raises an Exception with a status code and error code. You can then manage 
-extracting the error code, message, and status code inside the `__exit__` block of the context manager.
+If you need to include error codes and messages as part of the response on errors, you could use a custom exception that raises an Exception with a status code and error code. You can then manage extracting the error code, message, and status code inside the `__exit__` block of the context manager.
 
 ```python
 class CustomBaseException(Exception):
@@ -70,8 +60,7 @@ class CustomBaseException(Exception):
             
 ```
 
-This `CustomBaseException` class raises a exception with `errorCode`, `statusCode` and `messsage`, now you
-can update the `__exit__` block as follows
+This `CustomBaseException` class raises a exception with `errorCode`, `statusCode` and `messsage`, now you can update the `__exit__` block as follows
 
 ```python
     def __exit__(self, exc_type, exc_value, traceback):
@@ -92,9 +81,7 @@ Now you just have to raise the exceptions in your views, response is managed by 
 
 ## Another use case
 
-When working with databases in Django, it's important to properly manage the lifecycle of database 
-connections and cursors. This can help prevent issues like resource leaks, performance problems, 
-and unnecessary overhead.
+When working with databases in Django, it's important to properly manage the lifecycle of database connections and cursors. This can help prevent issues like resource leaks, performance problems, and unnecessary overhead.
 
 By using the context manager, you can ensure that the cursor is properly closed and the database 
 connection is returned to the connection pool, even in the event of an exception.
@@ -124,3 +111,6 @@ with SQLiteDBConnection(db_file) as cursor:
 
 # The connection is automatically closed at the end of the with block
 ```
+
+
+fin.
