@@ -1,3 +1,8 @@
+---
+title: Context manager in Python
+date: 2024-05-20T19:23:00.000+00:00
+---
+
 # Context manager in Python
 
 A context manager is a Python object that provides a clean way to manage resources, ensuring proper acquisition and release. By encapsulating the response formatting logic within a context manager, we can ensure consistency and maintainability throughout the project. It handles exceptions and sets appropriate status codes, enhancing consistency and robustness.
