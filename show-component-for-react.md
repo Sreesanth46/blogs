@@ -1,4 +1,7 @@
-# Show component for React
+---
+title: Show component for React
+date: 2024-03-21T01:20:00.000+00:00
+---
 
 As a React developer, you know that conditional rendering is a task that comes up all the time. While you can always rely on basic inline conditional logic (using && and ternary operators), things can get messy when you have multiple elements that need to render or not render.  
   <br>

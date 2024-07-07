@@ -1,4 +1,7 @@
-# Vue 3 Teleport
+---
+title: "Vue 3 Teleport"
+date: 2024-04-23T17:06:00.000+00:00
+---
 
 <b>
   Have you ever needed to render a Vue component outside of its parent component's DOM hierarchy?

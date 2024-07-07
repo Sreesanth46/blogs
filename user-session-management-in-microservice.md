@@ -1,9 +1,9 @@
+---
+title: Efficient User session Management in Microservice Architecture
+date: 2024-03-02T16:04:00.000+00:00
+---
+
    <div class="flex flex-col gap-4 font-serif">
-    <h1 class="text-2xl">
-      <strong>
-        Efficient User session Management in Microservice Architecture
-      </strong>
-    </h1>
     <p>
       When building applications with microservices, managing user sessions
       across services can be tricky. A robust session management approach is key
