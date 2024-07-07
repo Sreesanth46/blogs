@@ -1,5 +1,5 @@
 ---
-title: How to Implement Infinite Scroll: A Step-by-Step Guide
+title: "How to Implement Infinite Scroll: A Step-by-Step Guide"
 date: 2024-03-21T09:29:00.000+00:00
 ---
 
