@@ -3,10 +3,8 @@ title: "Vue 3 Teleport"
 date: 2024-04-23T17:06:00.000+00:00
 ---
 
-<b>
-  Have you ever needed to render a Vue component outside of its parent component's DOM hierarchy?
-</b>
-Enter the Teleport component in Vue 3 - a game-changer for building modals, tooltips, and other UI elements that need to be rendered separately from their parent components.
+
+***Have you ever needed to render a Vue component outside of its parent component's DOM hierarchy?*** Enter the Teleport component in Vue 3 - a game-changer for building modals, tooltips, and other UI elements that need to be rendered separately from their parent components.
 
 ### What is the Teleport Component?
 
@@ -15,9 +13,9 @@ useful when you need to create modals, tooltips, or other UI elements that shoul
 
 ### Benefits of Using Teleport
 
-  - <b>Better Accessibility</b>: By rendering modals or tooltips at the root level of the DOM, you ensure that they are accessible to screen readers and other assistive technologies.
-  - <b>Improved CSS Styling</b>: When components are rendered outside of their parent components, they are not affected by the parent's CSS styles, making it easier to style them independently.
-  - <b>Easier Management</b>: Teleport makes it simpler to manage components that need to be rendered separately from their parent components, leading to cleaner and more maintainable code.
+  - **Better Accessibility**: By rendering modals or tooltips at the root level of the DOM, you ensure that they are accessible to screen readers and other assistive technologies.
+  - **Improved CSS Styling**: When components are rendered outside of their parent components, they are not affected by the parent's CSS styles, making it easier to style them independently.
+  - **Easier Management**: Teleport makes it simpler to manage components that need to be rendered separately from their parent components, leading to cleaner and more maintainable code.
 
 ### Using Teleport in Vue 3
 
