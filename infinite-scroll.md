@@ -1,6 +1,6 @@
 ---
 title: How to Implement Infinite Scroll: A Step-by-Step Guide
-date: 2024-03-21T19:23:00.000+00:00
+date: 2024-03-21T09:23:00.000+00:00
 ---
 
 Have you ever wondered how websites load data while scrolling? Infinite scrolling is the design approach used to continuously load data as the user scrolls, enhancing the user experience and improving performance by loading content on-demand.
