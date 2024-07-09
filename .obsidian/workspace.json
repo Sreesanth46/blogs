@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "6417d4b08064b0a7",
+        "id": "961861f039425eef",
         "type": "tabs",
         "children": [
           {
-            "id": "7d37364f602a0421",
+            "id": "bf807e5de4e786ae",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "vue-teleport.md",
+                "file": "Templates/matter.md",
                 "mode": "source",
-                "source": true
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d7931a95bca7a6ce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Templates/matter.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "vue-teleport.md",
+                "file": "Templates/matter.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "vue-teleport.md",
+                "file": "Templates/matter.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "vue-teleport.md"
+                "file": "Templates/matter.md"
               }
             }
           }
@@ -146,11 +159,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7d37364f602a0421",
+  "active": "d7931a95bca7a6ce",
   "lastOpenFiles": [
-    "vue-render-function.md",
     "user-session-management-in-microservice.md",
+    "Untitled.md",
+    "Templates/matter.md",
     "vue-teleport.md",
+    "Templates",
+    "vue-render-function.md",
     "show-component-for-react.md",
     "infinite-scroll.md",
     "context-manager-in-python.md"
