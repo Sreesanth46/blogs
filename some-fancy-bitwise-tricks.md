@@ -30,7 +30,7 @@ a ^= b
 // Now a = 20 and b = 10, without the temp!!
   /**
    * Let's see how this works.
-   * for simplicity can take a = 1 and b = 2
+   * for simplicity we can take a = 1 and b = 2
    * Binary representation -> a = 0001 and b = 0010
    * a = a XOR b -> 0001 XOR 0010 = 0011
    * b = b XOR a -> 0010 XOR 0011 = 0001
