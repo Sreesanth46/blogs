@@ -22,7 +22,7 @@ Where `attribute-name` is the name of the HTML attribute you want to retrieve th
 
 Let's explore a practical example of using `attr()` to create a dynamic badge: 
 
-![[button-badge.png]]
+![button-badge.png](./assets/button-badge.png)
 
 ##### Static Badge Example
 In a traditional approach, you might hardcode the badge content within the CSS itself:
