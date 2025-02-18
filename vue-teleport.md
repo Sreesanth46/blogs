@@ -32,5 +32,4 @@ To use the Teleport component, you need to provide it with two essential pieces 
 In the example above, the `<modal-component>` will be rendered as a direct child of the `<body>` element, even though it is defined within another component.
 
 ### Conclusion
-The Teleport component in Vue 3 provides a powerful and elegant solution for rendering components outside of their parent component's DOM hierarchy. Whether you're building modals, tooltips, 
-or any other UI elements that require special positioning, Teleport can help you achieve your desired layout while maintaining clean and maintainable code.
+The Teleport component in Vue 3 provides a powerful and elegant solution for rendering components outside of their parent component's DOM hierarchy. Whether you're building modals, tooltips, or any other UI elements that require special positioning, Teleport can help you achieve your desired layout while maintaining clean and maintainable code.
