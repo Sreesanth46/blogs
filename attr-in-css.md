@@ -68,7 +68,7 @@ button {
 }
 
 button::before {
-	content: attr(data-count);
+	content: attr(data-count); // [!code ++]
 	/* badge styling */
 }
 </style>
