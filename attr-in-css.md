@@ -59,7 +59,7 @@ In this example, the badge always displays the value `6`, making it static and i
 ##### Making the Badge Dynamic with `attr()`
 Instead of hardcoding, you can leverage a custom data attribute to dynamically set the badge value:
 
-```diff
+```html
 <button data-count="8">Button</button>
 
 <style>
@@ -68,8 +68,7 @@ button {
 }
 
 button::before {
--	content: "6";
-+	content: attr(data-count);
+	content: attr(data-count); // [!code ++]
 	/* badge styling */
 }
 </style>
