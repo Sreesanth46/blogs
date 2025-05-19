@@ -63,5 +63,3 @@ export default function App() {
 	}, [])
 }
 ```
-
-[refer](https://youtube.com/shorts/Z09xJq5iA0c?si=hxPjTnL1Ui4ngz4x)
