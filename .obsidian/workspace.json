@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "upgrading to nuxt 4.md",
+                "file": "remembering-polymorphism.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "upgrading to nuxt 4"
+              "title": "remembering-polymorphism"
             }
           }
         ]
@@ -155,6 +155,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -166,14 +167,15 @@
   },
   "active": "13dd74e8adb8e581",
   "lastOpenFiles": [
+    "nuxt-layers.md",
+    "remembering-polymorphism.md",
+    "show-component-for-react.md",
+    "upgrading to nuxt 4.md",
     "user-session-management-in-microservice.md",
     "Vue 3's Expose.md",
     "vue-render-function.md",
     "vue-teleport.md",
-    "upgrading to nuxt 4.md",
-    "nuxt-layers.md",
     "Handling event listeners in React.md",
-    "show-component-for-react.md",
     "Templates/matter.md",
     "attr-in-css.md",
     "some-fancy-bitwise-tricks.md",
