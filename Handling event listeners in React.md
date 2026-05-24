@@ -1,6 +1,8 @@
 ---
 title: Handling event listeners in React
 date: 2025-04-09 18:31:36 +0530
+tags:
+  - react
 ---
 ```js
 export default function App() {
@@ -63,3 +65,5 @@ export default function App() {
 	}, [])
 }
 ```
+
+<p style="text-align: center;">fin.</p>

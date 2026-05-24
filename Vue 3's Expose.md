@@ -1,9 +1,11 @@
 ---
 title: Vue 3's Expose
 date: 2024-09-23 03:58:30 +0530
+tags:
+  - vue
 ---
 ##### TheCounter.vue
-```vue
+```vue [TheCounter.vue]
 <template>
 	<div>
 		<p>Counter: {{ counter }}</p>
@@ -41,7 +43,7 @@ export default {
 ```
 
 ##### App.vue
-```vue
+```vue [App.vue]
 <template>
 	<div>
 		<TheCounter ref="counter" />
@@ -71,7 +73,7 @@ export default {
 
 Now lets update the `TheCounter.vue`
 ##### TheCounter.vue
-```vue
+```vue [TheCounter.vue]
 <script>
 import { ref } from 'vue'
 export default { 

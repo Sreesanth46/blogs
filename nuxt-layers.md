@@ -1,6 +1,10 @@
 ---
 title: Nuxt Layers explained
 date: 2025-03-30 03:44:38 +0530
+tags:
+  - vue
+  - nuxt
+  - nuxt-layers
 ---
 ## Introduction
 
@@ -51,7 +55,7 @@ This will create folders named `layer-one` and `layer-two`, each containing its 
 >💡 Alternatively, you can manually create a folder and add a `nuxt.config.ts` file inside it to define a custom layer.
 
 To include these layers in your main Nuxt application, update the `nuxt.config.ts` file in your app - the base app we created:
-```ts
+```ts [nuxt.config.ts]
 // nuxt.config.ts
 export default defineNuxtConfig({
   extends: [
@@ -88,7 +92,7 @@ my-project/
 In this example, the `Button.vue` in the app will override the one from `layer-one`, because the app itself is considered the top-most layer.
 
 If you had two layers like this:
-```ts
+```ts [nuxt.config.ts]
 // nuxt.config.ts
 export default defineNuxtConfig({
   extends: [
@@ -101,7 +105,7 @@ Then any `Button.vue` inside `layer-two` would override the one from `layer-one`
 
 
 Let’s say `layer-one` has a reusable component:
-```vue
+```vue [layer-one/components/Alert.vue]
 <!-- layer-one/components/Alert.vue -->
 <template>
   <div class="bg-yellow-100 p-4">This is a default alert.</div>
@@ -109,7 +113,7 @@ Let’s say `layer-one` has a reusable component:
 ```
 
 Now, in your main app (or another layer that comes after), create a file with the same name:
-```vue
+```vue [components/Alert.vue]
 <!-- components/Alert.vue -->
 <template>
   <div class="bg-red-100 p-4 font-bold">This is a custom alert!</div>

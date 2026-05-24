@@ -1,6 +1,9 @@
 ---
 title: attr() in css
 date: 2024-11-07 19:30:32 +0530
+tags:
+  - css
+  - html
 ---
 The `attr()` function in CSS is a powerful tool that allows you to dynamically retrieve and display the value of an HTML element's attribute. This can be particularly useful for creating more accessible and dynamic user interfaces.
 
@@ -90,3 +93,5 @@ In this example, if `data-currency` or `data-price` is missing, the respective f
 ### Conclusion
 
 The CSS `attr()` function offers a flexible way to dynamically incorporate HTML attribute values into your styling. This feature is ideal for creating more responsive, accessible, and data-driven user interfaces. By understanding its capabilities and limitations, you can enhance your web designs with dynamic content seamlessly.
+
+<p style="text-align: center;">fin.</p>

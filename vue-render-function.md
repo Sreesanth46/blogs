@@ -1,6 +1,8 @@
 ---
-title: "h() function in Vue"
+title: h() function in Vue
 date: 2024-03-09T21:05:00.000+00:00
+tags:
+  - vue
 ---
 
 When working with Vue.js render function (h()), you gain full power of javascript. 

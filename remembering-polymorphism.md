@@ -1,6 +1,9 @@
 ---
 title: Remembering Polymorphism
 date: 2026-01-18 22:34:18 +0530
+tags:
+  - javascript
+  - polymorphism
 ---
 Polymorphism isn’t new.  
 It isn’t fancy.  

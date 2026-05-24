@@ -1,6 +1,9 @@
 ---
 title: "How to Update to Nuxt 4: Complete Upgrade Guide"
 date: 2025-07-27 20:50:14 +0530
+tags:
+  - vue
+  - nuxt
 ---
 Nuxt 4 is here! 🎉 After a year of real-world testing, the stable release of Nuxt 4 has landed—bringing enhanced performance, streamlined developer experience, and powerful new features. This comprehensive guide will walk you through everything you need to know about upgrading to Nuxt 4.
 
@@ -115,7 +118,7 @@ The separate configurations are:
 
 1. **Update root tsconfig.json to use project references:**
 
-```json
+```json [tsconfig.json]
 {
   "files": [],
   "references": [
@@ -129,7 +132,7 @@ The separate configurations are:
 
 2. **Update type checking scripts:**
 
-```json
+```json [package.json]
 {
   "scripts": {
     "typecheck": "nuxt prepare && vue-tsc -b --noEmit"
