@@ -4,6 +4,7 @@ date: 2024-08-11 01:37:26 +0530
 tags:
   - tricks
   - javascript
+  - js
 ---
 Bitwise operations are often underappreciated, lurking in the shadows of more straightforward arithmetic and logical operations. However, these operations are powerful tools that, when used correctly, can lead to elegant and efficient solutions to common programming problems. In this blog post, we'll explore two fascinating applications of bitwise operations: using XOR to swap variables without a temporary variable and using AND to check if a number is even or odd.
 

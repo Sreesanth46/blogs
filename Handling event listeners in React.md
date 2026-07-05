@@ -3,6 +3,8 @@ title: Handling event listeners in React
 date: 2025-04-09 18:31:36 +0530
 tags:
   - react
+  - clean-code
+  - dx
 ---
 ```js
 export default function App() {

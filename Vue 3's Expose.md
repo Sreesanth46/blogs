@@ -110,3 +110,5 @@ Now if we run the example again, and "click stop from parent" button, we'll get 
 
 
 Components using `<script setup>` are **closed by default** - i.e. the public instance of the component, which is retrieved via template refs or `$parent` chains, will **not** expose any of the bindings declared inside `<script setup>`.
+
+<p style="text-align: center;">fin.</p>

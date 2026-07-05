@@ -4,6 +4,8 @@ date: 2026-01-18 22:34:18 +0530
 tags:
   - javascript
   - polymorphism
+  - js
+  - oop
 ---
 Polymorphism isn’t new.  
 It isn’t fancy.  

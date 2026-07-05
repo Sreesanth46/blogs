@@ -4,51 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "b19e9d97077053c9",
+        "id": "5db2d3fbfb210a92",
         "type": "tabs",
         "children": [
           {
-            "id": "13dd74e8adb8e581",
+            "id": "0f6a51329aa50df4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "remembering-polymorphism.md",
+                "file": "clean-code.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "remembering-polymorphism"
+              "title": "clean-code"
             }
           },
           {
-            "id": "bcaac0c0590c3e75",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.11.4"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.11.4"
-            }
-          },
-          {
-            "id": "4542e7b688500905",
+            "id": "9af3bd6dc967658a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "vue-teleport.md",
+                "file": "http-query-method.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "vue-teleport"
+              "title": "http-query-method"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -140,12 +128,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "attr-in-css.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from attr-in-css"
+              "title": "Outgoing links"
             }
           },
           {
@@ -155,7 +142,9 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -167,13 +156,26 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "attr-in-css.md"
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of attr-in-css"
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "262d1178080a7089",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -192,22 +194,27 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4542e7b688500905",
+  "active": "9af3bd6dc967658a",
   "lastOpenFiles": [
-    "Templates/matter.md",
+    "infinite-scroll.md",
+    "http-query-method.md",
+    "clean-code.md",
+    "upgrading to nuxt 4.md",
+    "user-session-management-in-microservice.md",
     "vue-teleport.md",
     "vue-render-function.md",
     "Vue 3's Expose.md",
-    "user-session-management-in-microservice.md",
-    "upgrading to nuxt 4.md",
+    "Untitled 1.base",
+    "Untitled.base",
+    "nuxt-layers.md",
+    "attr-in-css.md",
+    "context-manager-in-python.md",
+    "Handling event listeners in React.md",
     "some-fancy-bitwise-tricks.md",
     "show-component-for-react.md",
     "remembering-polymorphism.md",
-    "nuxt-layers.md",
-    "infinite-scroll.md",
-    "Handling event listeners in React.md",
-    "context-manager-in-python.md",
-    "attr-in-css.md",
+    "Untitled.canvas",
+    "Templates/matter.md",
     "assets/nuxt-layers-architecture.png",
     "assets/micro-service-session.jpg",
     "().md",

@@ -48,3 +48,5 @@ const values = [
   </Typography>
 </template>
 ```
+
+<p style="text-align: center;">fin.</p>

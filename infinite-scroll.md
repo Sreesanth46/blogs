@@ -4,6 +4,7 @@ date: 2024-03-21T09:29:00.000+00:00
 tags:
   - react
   - infinite-scroll
+  - ux
 ---
 
 Have you ever wondered how websites load data while scrolling? Infinite scrolling is the design approach used to continuously load data as the user scrolls, enhancing the user experience and improving performance by loading content on-demand.

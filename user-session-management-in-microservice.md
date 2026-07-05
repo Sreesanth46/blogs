@@ -4,6 +4,7 @@ date: 2024-03-02T16:04:00.000+00:00
 tags:
   - micro-service
   - session
+  - pattern
 ---
 When building applications with microservices, managing user sessions across services can be tricky. A robust session management approach is key to ensuring a smooth user experience. Here is an outline of how to share session state across independent services:
 
