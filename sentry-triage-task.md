@@ -5,9 +5,9 @@ tags:
   - sentry
   - bug-fix
   - fix
-  - work-in-progress
   - agent
   - ai
+  - wip
 ---
 
 Every team with an error tracker has the same graveyard: hundreds of unresolved issues, usually sorted by “last seen,” that nobody has time to open.
