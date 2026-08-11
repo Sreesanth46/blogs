@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "http-query-method.md",
-                "mode": "source",
+                "file": "sentry-triage-task.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "http-query-method"
+              "title": "sentry-triage-task"
             }
           }
         ],
@@ -56,7 +56,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -196,12 +198,13 @@
   },
   "active": "9af3bd6dc967658a",
   "lastOpenFiles": [
-    "infinite-scroll.md",
+    "vue-teleport.md",
+    "sentry-triage-task.md",
     "http-query-method.md",
+    "infinite-scroll.md",
     "clean-code.md",
     "upgrading to nuxt 4.md",
     "user-session-management-in-microservice.md",
-    "vue-teleport.md",
     "vue-render-function.md",
     "Vue 3's Expose.md",
     "Untitled 1.base",
