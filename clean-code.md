@@ -4,7 +4,6 @@ date: 2026-05-25 21:30:01 +0530
 tags:
   - clean-code
   - dx
-  - work-in-progress
 ---
 We've spent decades building a shared vocabulary around clean code. Meaningful names. Small functions. Consistent formatting. Line breaks that breathe. These aren't just aesthetic preferences — they are the invisible scaffolding that makes software readable, maintainable, and trustworthy.
 
