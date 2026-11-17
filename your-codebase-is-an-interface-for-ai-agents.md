@@ -1,5 +1,5 @@
 ---
-title: Your Codebase Is an Interface for AI Agents
+title: "If an Agent Can’t Find It, Neither Can Your New Hire: Codebase Structure in the Age of AI"
 date: 2026-11-07 15:52:38 +0530
 tags:
   - ai
@@ -317,17 +317,5 @@ A well-structured codebase is an interface. For the developer joining next month
 Design it accordingly.
 
 ---
-
-## Appendix
-
-### Three alternative titles
-
-1. **Structure Is the Prompt You Can’t Rewrite: Designing Codebases for AI Agents**
-2. **Clean Code for Two Audiences: What Agents Reveal About Your Architecture**
-3. **If an Agent Can’t Find It, Neither Can Your New Hire: Codebase Structure in the Age of AI**
-
-### Summary of the central argument
-
-The engineering practices we’ve long valued, namely focused files, meaningful names, separation of concerns, modularity, and explicit dependency boundaries, matter even more now that AI coding agents navigate and modify our code. Agents work from the structure they find: file and folder names, imports, signatures, and tests. Mixed responsibilities, junk-drawer utility modules, tangled dependencies, and inconsistent conventions make it harder for agents (and people) to discover the right place, understand what’s there, and make safe, targeted changes. But the remedy isn’t maximal fragmentation. File size is a signal rather than a rule, and the aim is cohesive responsibilities with explicit contracts. A well-structured codebase is an interface for both humans and AI agents.
 
 <p style="text-align: center;">fin.</p>
